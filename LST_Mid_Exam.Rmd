@@ -1,6 +1,8 @@
 ---
 output: pdf_document
 documentclass: exam
+header-includes: 
+  - \usepackage{multicol}
 ---
 \pagestyle{headandfoot}
 \firstpageheader{Logic and Set Theory\\O. D. Hombrebueno}{Nueva Vizcaya State University\\College of Teacher Education}{Midterm Exam\\October 11, 2018}
@@ -14,3 +16,66 @@ documentclass: exam
 \makebox[3in]{Course and Year:\enspace\hrulefill}
 
 \vspace{5mm}
+
+**Part 1.** Give the truth value of each statement if $t$ is true. Write T or F after the statement.
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\sim p\rightarrow t$
+\item $\sim p\vee t$
+\item $p\rightarrow(t\vee\sim p)$
+\item $p\wedge\sim t$
+\item $\sim(p\rightarrow t)$
+\end{enumerate}
+\end{multicols}
+
+**Part 2.** Give the truth value of each sentence. Write T or F after the sentence.
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item $p\wedge q$ if $q$ is not true.
+\item $p\rightarrow(p\vee q)$ if $p$ is true.
+\item $(\sim p\vee r)\vee(q\rightarrow s)$ if $q$ is false.
+\item $p\rightarrow(q\vee\sim r)$ if $r$ is false.
+\item $p\rightarrow q$ if $\sim(p\wedge q)$ is false.
+\end{enumerate}
+\end{multicols}
+
+**Part 3.** Find the truth value of each symbolic statement. Show your solution
+
+1. Let $p$ be true, $q$ be false and $r$ be true.
+
+\begin{multicols}{3}
+\begin{enumerate}
+\item[a.] $r\rightarrow(p\rightarrow q)$
+\item[b.] $\sim[(p\wedge q)\rightarrow(r\leftrightarrow q)]$
+\end{enumerate}
+\end{multicols}
+
+\vspace{.8in}
+
+2. Let $p$ be true, $q$ be false and $r$ be false.
+
+\begin{multicols}{3}
+\begin{enumerate}
+\item[a.] $\sim p\rightarrow(q\wedge r)$
+\item[b.] $\sim[(\sim q\wedge p)\leftrightarrow r]\rightarrow q$
+\item[c.] $(\sim p\leftrightarrow\sim r)\vee[p\rightarrow(q\rightarrow r)]$
+\end{enumerate}
+\end{multicols}
+
+\vspace{.8in}
+
+**Part 4.** Determine whether the statement is a tautology, a contradiction or indeterminate. Use a truth table to show your answer.
+
+\begin{multicols}{3}
+\begin{enumerate}
+\item[a.] $\sim q \vee(p\rightarrow q)$
+\item[b.] $p\rightarrow[(\sim q\rightarrow p)\wedge(q\vee\sim p)]$
+\item[c.] $(p\wedge q)\wedge(q\rightarrow\sim p)$
+\end{enumerate}
+\end{multicols}
+
+\clearpage
+
+**Part 5.**
