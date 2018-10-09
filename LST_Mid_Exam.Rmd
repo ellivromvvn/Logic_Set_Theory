@@ -1,0 +1,16 @@
+---
+output: pdf_document
+documentclass: exam
+---
+\pagestyle{headandfoot}
+\firstpageheader{Logic and Set Theory\\O. D. Hombrebueno}{Nueva Vizcaya State University\\College of Teacher Education}{Midterm Exam\\October 11, 2018}
+\runningheader{}{}{}
+\firstpagefooter{}{}{}
+\runningfooter{Logic and Set Theory}{Midterm Exam}{Page \thepage\ of \numpages}
+\runningfootrule
+
+\makebox[4in]{Name:\enspace\hrulefill}
+
+\makebox[3in]{Course and Year:\enspace\hrulefill}
+
+\vspace{5mm}
