@@ -97,4 +97,21 @@ header-includes:
 
 \clearpage
 
-**Part 8.**
+**Part 8.** Represent the argument symbolically and determine whether it is a valid argument. Use method 1, method 2, and method 3 for items 1., 2., and 3. respectively.
+
+1. Mark attended his classes or he went to the mall.  
+Mark did not went to the mall.  
+$\therefore$ He attended his classes.
+
+2. If you will do your best in the contest, then I will not win.  
+If I will not win, then I will be sad.  
+$\therefore$ If you will do your best in the contest, then I will be sad.
+
+3. Mathematics is fun and challenging.  
+Mathematics is fun or easy.  
+Mathematics is not easy.  
+$\therefore$ Mathematics is challenging.
+
+\clearpage
+
+**Part 9.**
