@@ -78,4 +78,23 @@ header-includes:
 
 \clearpage
 
-**Part 5.**
+**Part 5.** Determine the relation between the two statements. Use a truth table to show your answer.
+
+\begin{multicols}{3}
+\begin{enumerate}
+\item[a.] $(p\wedge q)\rightarrow(p\vee q)$
+\item[b.] $(p\wedge\sim q)\leftrightarrow(p\rightarrow q)$
+\end{enumerate}
+\end{multicols}
+
+\vspace{1.5in}
+
+**Part 6.** Write the converse, inverse and contrapositive of "If $n^2$ is even, then $n$ is even."
+
+\vspace{1.5in}
+
+**Part 7.** Give the Rules of Replacement and the Rules of Inference.
+
+\clearpage
+
+**Part 8.**
